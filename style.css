@@ -1,0 +1,13 @@
+#container {
+    height: 352px;
+    width: 352px;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.squares {
+    height: 20px; width: 20px; border: 1px solid black;
+    flex: 1 1 auto;
+}
