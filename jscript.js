@@ -7,3 +7,11 @@ square.classList.toggle('squares');
 container.appendChild(square);
 i++;
 }
+
+const squares = document.querySelectorAll('.squares');
+
+squares.forEach(square => {
+  square.addEventListener('mouseover', () => {
+    square.style.backgroundColor = 'pink';
+  });
+});
