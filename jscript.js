@@ -23,3 +23,11 @@ squares.forEach(square => {
     square.style.backgroundColor = getRandomColor();
   });
 });
+
+const button = document.querySelector('#btn');
+
+button.addEventListener('click', () => {
+    let size = prompt("Enter new grid size (max 100)");
+    if (size > 100) { size = 100;};
+    alert(size);
+});
